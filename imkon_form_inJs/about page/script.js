@@ -107,7 +107,7 @@ maleLabel.setAttribute("class", "text-white/80 font-xs font-medium block group-h
 femaleLabel.setAttribute("class", "text-white/80 font-xs font-medium block group-hover:text-white/30");
 
 
-inputName.setAttribute("type", "text");
+inputName.setAttribute("›", "text");
 inputName.setAttribute("id", "email");
 inputName.setAttribute("class", "mt-2 w-[260px] border-2 border-transparent focus:border-2 focus:border-blue-700 outline-none text-white/70 rounded-sm py-2 px-4 text-sm bg-[#121c2540]");
 inputName.setAttribute("placeholder", "Ismingiz");
@@ -138,9 +138,11 @@ radioDiv.setAttribute('class', 'flex items-center pt-4 gap-6');
 maleDiv.setAttribute('class', 'flex items-center gap-3 group');
 femaleDiv.setAttribute('class', 'flex items-center gap-3 group');
 maleRadio.setAttribute("type", "radio");
+maleRadio.setAttribute("name", "radio");
 maleRadio.setAttribute("class", "w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600");
 
 femaleRadio.setAttribute("type", "radio");
+femaleRadio.setAttribute("name", "radio");
 femaleRadio.setAttribute("class", "w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600");
 
 buttonLink.setAttribute("href", "../index.html");
